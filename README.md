@@ -1,10 +1,10 @@
 # Quiz D15
 
 1. RULES:
-  - The player must guess correctly a certain amount of questions;
-  - Each correct answer gives him one point;
-  - Answers could be multiple or true/false;
-  - At the end of the game, the user must know his/her total score.
+  - The player must guess correctly a certain amount of questions; (done)
+  - Each correct answer gives him one point; (done)
+  - Answers could be multiple or true/false; (done almost)
+  - At the end of the game, the user must know his/her total score. (done)
 
 2. QUESTIONS:
   - You can get them from this URL ( http://bit.ly/strive_QUIZZ ) or you can write your own
@@ -19,18 +19,18 @@
   - Please debug everything / try it on the console to be sure of what to expect from your code
 
 4. EXTRA:
-  - Show if the answer provided was the wrong one or correct it after clicking
-  - Present the questions one at a time instead of having all of them displayed together
-  - Let the user select difficulty and number of questions (you can get q/a from https://opentdb.com/api.php?amount=10&category=18&difficulty=easy modifying    amount and difficulty)
+  - Show if the answer provided was the wrong one or correct it after clicking (done)
+  - Present the questions one at a time instead of having all of them displayed together (done)
+  - Let the user select difficulty and number of questions (you can get q/a from https://opentdb.com/api.php?amount=10&category=18&difficulty=easy modifying    amount and difficulty) (done)
     
 5. WHEN YOU ARE FINISHED
   - Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
 
 6. HINTS JAVASCRIPT
   - IF YOU ARE DISPLAYING ALL THE QUESTIONS AT ONCE:
-  - For each question, create a container for wrapping it; then create a radio button
+  - For each question, create a container for wrapping it; then create a radio button  (DONE)
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
-  - with, as options, both the correct answer and the incorrect ones
+  - with, as options, both the correct answer and the incorrect ones      (DONE)
   - (you'll probably need to google how to get the value from a radio button in JS to evaluate the final score)   
   - IF YOU ARE DISPLAYING ONE QUESTION AT A TIME
   - Display the first question with the text and the radio buttons
