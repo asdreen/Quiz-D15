@@ -10,7 +10,7 @@ const questions = [
     },
 
     {
-        question: "Linux was first created as an alternative to Windows XP.",
+        question1: "Linux was first created as an alternative to Windows XP.",
         optionA: "True",
         optionB: "False",
         
@@ -54,7 +54,7 @@ const questions = [
     },
 
     {
-        question: "Pointers were not used in the original C programming language; they were added later on in C++.",
+        question1: "Pointers were not used in the original C programming language; they were added later on in C++.",
         optionA: "True",
         optionB: "False",
         
@@ -62,7 +62,7 @@ const questions = [
     },
 
     {
-        question: "The logo for Snapchat is a Bell.",
+        question1: "The logo for Snapchat is a Bell.",
         optionA: "True",
         optionB: "False",
        
@@ -231,7 +231,6 @@ function handleQuestions() {
     }
 }
 
-
 let questionNumber = 1 //holds the current question number
 let playerScore = 0  //holds the player score
 let wrongAttempt = 0 //amount of wrong answers picked by player
@@ -350,7 +349,7 @@ function handleEndGame() {
         remark = "Excellent, Keep the good work going."
         remarkColor = "green"
     }
-    const playerGrade = (playerScore / 20) * 100
+    const playerGrade = (playerScore / 10) * 100
 
     //data to display to score board
     document.getElementById('remarks').innerHTML = remark
